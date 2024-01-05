@@ -20,9 +20,9 @@ public class EmailModel implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private UUID emailId;
+    private Integer emailId;
 
-    private UUID userId;
+    private Integer userId;
     private String emailFrom;
     private String emailTo;
     private String subject;
